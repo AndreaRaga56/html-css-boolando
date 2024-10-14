@@ -14,7 +14,6 @@ header{
     width: 80%;
     min-height: 50px;
     max-width: 1100px;
-    border: black solid 1px;
     margin: 0 auto;
 
 }
@@ -65,7 +64,6 @@ header{
 .card{
     min-height: 450px;
     width: calc((100% - 30px) /3);
-    border: #FF6900 solid 1px;
     position: relative;
 }
 
@@ -94,7 +92,6 @@ header{
     text-align: center;
     line-height: 25px;
     background-color: white;
-    border: #FF6900 solid 1px;
     border-radius: 3px;
     z-index: 10;
 }
@@ -115,7 +112,6 @@ header{
 .sos{
     text-align: center;
     background-color: green;
-    border: black solid 1px;
     padding: 0.3rem;
     border-radius: 1px;
     display: inline-block;
@@ -124,7 +120,6 @@ header{
 .sconto{
     text-align: center;
     background-color: red;
-    border: black solid 1px;
     padding: 0.3rem;
     border-radius: 1px;
     display: inline-block;
