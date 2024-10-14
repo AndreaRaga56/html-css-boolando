@@ -138,10 +138,17 @@ footer{
     min-height: 100px;
     color: white;
     border-bottom: 3px solid white;
+    display: flex;
+    justify-content: space-between;
 }
 
 .link{
     display: inline-block;
     margin-right: 10px;
+    margin-top: 10px;
     color: white;
+}
+
+.link.due{
+    margin-right: 0px;
 }
