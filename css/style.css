@@ -73,6 +73,18 @@ header{
     max-width: 100%;
 }
 
+.card-img-back{
+    max-width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.card:hover .card-img-back{
+    z-index: 1;
+}
+
 .cuore{
     position: absolute;
     right: 0px;
@@ -84,6 +96,7 @@ header{
     background-color: white;
     border: #FF6900 solid 1px;
     border-radius: 3px;
+    z-index: 10;
 }
 
 .marca{
@@ -120,4 +133,6 @@ header{
 .posizione-bolloni{
     position: absolute;
     bottom: 80px;
+    left: 0px;
+    z-index: 10;
 }
