@@ -12,10 +12,11 @@ header{
 
 .container{
     width: 80%;
-    margin: 0 auto;
     min-height: 50px;
     max-width: 1100px;
     border: black solid 1px;
+    margin: 0 auto;
+
 }
 
 .flex-head{
@@ -50,19 +51,73 @@ header{
     text-align: right;
 }
 
-.mt30{
-    margin-top: 40px;
+.main{
+    padding: 30px;
 }
 
 .flex-main{
     display: flex;
     flex-wrap: wrap;
-    gap: ;
+    row-gap: 15px;
+    justify-content: space-between;
 }
 
 .card{
-    min-height: 300px;
-    width: 300px;
+    min-height: 450px;
+    width: calc((100% - 30px) /3);
     border: #FF6900 solid 1px;
+    position: relative;
+}
 
+.card-img{
+    max-width: 100%;
+}
+
+.cuore{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    background-color: white;
+    border: #FF6900 solid 1px;
+    border-radius: 3px;
+}
+
+.marca{
+    display: block;
+}
+
+.nome{
+    display: block;
+}
+
+.prezzo{
+    color: red;
+    font-weight: 600;
+}
+
+.sos{
+    text-align: center;
+    background-color: green;
+    border: black solid 1px;
+    padding: 0.3rem;
+    border-radius: 1px;
+    display: inline-block;
+}
+
+.sconto{
+    text-align: center;
+    background-color: red;
+    border: black solid 1px;
+    padding: 0.3rem;
+    border-radius: 1px;
+    display: inline-block;
+}
+
+.posizione-bolloni{
+    position: absolute;
+    bottom: 80px;
 }
